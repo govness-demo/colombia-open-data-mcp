@@ -1,0 +1,19 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "co-datos-publicos.colombia-open-data-mcp"
+name: "Colombia open data MCP server"
+type: "mcp"
+version: "1.0.0"
+summary: "MCP server to search and query datasets on the national open data portal."
+description: "Lets assistants find and query public datasets directly, with the portal's licence shown for every result."
+publisher:
+  environment: "co-datos-publicos"
+  body: "Agencia de Datos Públicos de Colombia"
+languages: ["es"]
+license: "MIT"
+interfaces:
+  protocol: "mcp"
+  tools: ["search_datasets", "dataset_schema", "query_dataset"]
+links:
+  repo: "https://github.com/govness-demo/colombia-open-data-mcp"
+domains: ["open-data-and-statistics"]
